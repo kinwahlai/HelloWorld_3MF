@@ -18,6 +18,52 @@
 		07F4225E16FF2BD2004DD336 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07F4225D16FF2BD2004DD336 /* Default-568h@2x.png */; };
 		07F4226116FF2BD2004DD336 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4226016FF2BD2004DD336 /* ViewController.m */; };
 		07F4226416FF2BD2004DD336 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F4226216FF2BD2004DD336 /* ViewController.xib */; };
+		07F422D216FF39FC004DD336 /* TMFImageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4226F16FF39FC004DD336 /* TMFImageCommand.m */; };
+		07F422D316FF39FC004DD336 /* TMFKeyValueCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227116FF39FC004DD336 /* TMFKeyValueCommand.m */; };
+		07F422D416FF39FC004DD336 /* TMFLocationCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227316FF39FC004DD336 /* TMFLocationCommand.m */; };
+		07F422D516FF39FC004DD336 /* TMFMotionCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227516FF39FC004DD336 /* TMFMotionCommand.m */; };
+		07F422D616FF39FC004DD336 /* TMFMultiTouchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227716FF39FC004DD336 /* TMFMultiTouchCommand.m */; };
+		07F422D716FF39FC004DD336 /* TMFMultiTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227916FF39FC004DD336 /* TMFMultiTouchView.m */; };
+		07F422D816FF39FC004DD336 /* TMFServiceBrowserTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227C16FF39FC004DD336 /* TMFServiceBrowserTableViewController.m */; };
+		07F422D916FF39FC004DD336 /* TMFAnnounceCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4227F16FF39FC004DD336 /* TMFAnnounceCommand.m */; };
+		07F422DA16FF39FC004DD336 /* TMFArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228116FF39FC004DD336 /* TMFArguments.m */; };
+		07F422DB16FF39FC004DD336 /* TMFCapabilityCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228316FF39FC004DD336 /* TMFCapabilityCommand.m */; };
+		07F422DC16FF39FC004DD336 /* TMFCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228516FF39FC004DD336 /* TMFCommand.m */; };
+		07F422DD16FF39FC004DD336 /* TMFCommandDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228716FF39FC004DD336 /* TMFCommandDispatcher.m */; };
+		07F422DE16FF39FC004DD336 /* TMFConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228916FF39FC004DD336 /* TMFConfiguration.m */; };
+		07F422DF16FF39FC004DD336 /* TMFDisconnectCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228B16FF39FC004DD336 /* TMFDisconnectCommand.m */; };
+		07F422E016FF39FC004DD336 /* TMFHeartBeatCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228D16FF39FC004DD336 /* TMFHeartBeatCommand.m */; };
+		07F422E116FF39FC004DD336 /* TMFPublishSubscribeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4228F16FF39FC004DD336 /* TMFPublishSubscribeCommand.m */; };
+		07F422E216FF39FC004DD336 /* TMFRequestResponseCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229116FF39FC004DD336 /* TMFRequestResponseCommand.m */; };
+		07F422E316FF39FC004DD336 /* TMFSerializableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229416FF39FC004DD336 /* TMFSerializableObject.m */; };
+		07F422E416FF39FC004DD336 /* TMFSubscribeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229616FF39FC004DD336 /* TMFSubscribeCommand.m */; };
+		07F422E516FF39FC004DD336 /* TMFUnsubscribeCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229816FF39FC004DD336 /* TMFUnsubscribeCommand.m */; };
+		07F422E616FF39FC004DD336 /* TMFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229A16FF39FC004DD336 /* TMFView.m */; };
+		07F422E716FF39FC004DD336 /* TMFChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F4229E16FF39FC004DD336 /* TMFChannel.m */; };
+		07F422E816FF39FC004DD336 /* TMFDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422A116FF39FC004DD336 /* TMFDiscovery.m */; };
+		07F422E916FF39FC004DD336 /* TMFJsonRpcCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422A416FF39FC004DD336 /* TMFJsonRpcCoder.m */; };
+		07F422EA16FF39FC004DD336 /* TMFMsgPackRpcCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422A616FF39FC004DD336 /* TMFMsgPackRpcCoder.m */; };
+		07F422EB16FF39FC004DD336 /* TMFPeer.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422A816FF39FC004DD336 /* TMFPeer.m */; };
+		07F422EC16FF39FC004DD336 /* TMFProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422AA16FF39FC004DD336 /* TMFProtocol.m */; };
+		07F422ED16FF39FC004DD336 /* TMFRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422AD16FF39FC004DD336 /* TMFRequest.m */; };
+		07F422EE16FF39FC004DD336 /* TMFResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422AF16FF39FC004DD336 /* TMFResponse.m */; };
+		07F422EF16FF39FC004DD336 /* TMFResponseCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422B116FF39FC004DD336 /* TMFResponseCallback.m */; };
+		07F422F016FF39FC004DD336 /* TMFRpcCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422B316FF39FC004DD336 /* TMFRpcCoder.m */; };
+		07F422F116FF39FC004DD336 /* TMFSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422B516FF39FC004DD336 /* TMFSubscription.m */; };
+		07F422F216FF39FC004DD336 /* TMFTcpChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422B716FF39FC004DD336 /* TMFTcpChannel.m */; };
+		07F422F316FF39FC004DD336 /* TMFTcpChannelConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422B916FF39FC004DD336 /* TMFTcpChannelConnection.m */; };
+		07F422F416FF39FC004DD336 /* TMFUdpChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422BB16FF39FC004DD336 /* TMFUdpChannel.m */; };
+		07F422F516FF39FC004DD336 /* TMFConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422BE16FF39FC004DD336 /* TMFConnector.m */; };
+		07F422F616FF39FC004DD336 /* TMFError.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422C216FF39FC004DD336 /* TMFError.m */; };
+		07F422F716FF39FC004DD336 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422C816FF39FC004DD336 /* GCDAsyncSocket.m */; };
+		07F422F816FF39FC004DD336 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F422CA16FF39FC004DD336 /* GCDAsyncUdpSocket.m */; };
+		07F422F916FF39FC004DD336 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 07F422CB16FF39FC004DD336 /* README.markdown */; };
+		07F422FA16FF39FC004DD336 /* COPYING.LESSER in Resources */ = {isa = PBXBuildFile; fileRef = 07F422CD16FF39FC004DD336 /* COPYING.LESSER */; };
+		07F422FB16FF39FC004DD336 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 07F422CE16FF39FC004DD336 /* README.markdown */; };
+		07F422FC16FF39FC004DD336 /* ybase64.c in Sources */ = {isa = PBXBuildFile; fileRef = 07F422CF16FF39FC004DD336 /* ybase64.c */; };
+		07F4230316FF3C08004DD336 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F4230116FF3BF4004DD336 /* CFNetwork.framework */; };
+		07F4230416FF3C08004DD336 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F422FF16FF3BE1004DD336 /* CoreLocation.framework */; };
+		07F4230516FF3C08004DD336 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F422FD16FF3BAD004DD336 /* Security.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +83,103 @@
 		07F4225F16FF2BD2004DD336 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		07F4226016FF2BD2004DD336 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		07F4226316FF2BD2004DD336 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		07F4226E16FF39FC004DD336 /* TMFImageCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFImageCommand.h; sourceTree = "<group>"; };
+		07F4226F16FF39FC004DD336 /* TMFImageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFImageCommand.m; sourceTree = "<group>"; };
+		07F4227016FF39FC004DD336 /* TMFKeyValueCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFKeyValueCommand.h; sourceTree = "<group>"; };
+		07F4227116FF39FC004DD336 /* TMFKeyValueCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFKeyValueCommand.m; sourceTree = "<group>"; };
+		07F4227216FF39FC004DD336 /* TMFLocationCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFLocationCommand.h; sourceTree = "<group>"; };
+		07F4227316FF39FC004DD336 /* TMFLocationCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFLocationCommand.m; sourceTree = "<group>"; };
+		07F4227416FF39FC004DD336 /* TMFMotionCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFMotionCommand.h; sourceTree = "<group>"; };
+		07F4227516FF39FC004DD336 /* TMFMotionCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFMotionCommand.m; sourceTree = "<group>"; };
+		07F4227616FF39FC004DD336 /* TMFMultiTouchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFMultiTouchCommand.h; sourceTree = "<group>"; };
+		07F4227716FF39FC004DD336 /* TMFMultiTouchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFMultiTouchCommand.m; sourceTree = "<group>"; };
+		07F4227816FF39FC004DD336 /* TMFMultiTouchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFMultiTouchView.h; sourceTree = "<group>"; };
+		07F4227916FF39FC004DD336 /* TMFMultiTouchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFMultiTouchView.m; sourceTree = "<group>"; };
+		07F4227B16FF39FC004DD336 /* TMFServiceBrowserTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFServiceBrowserTableViewController.h; sourceTree = "<group>"; };
+		07F4227C16FF39FC004DD336 /* TMFServiceBrowserTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFServiceBrowserTableViewController.m; sourceTree = "<group>"; };
+		07F4227E16FF39FC004DD336 /* TMFAnnounceCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFAnnounceCommand.h; sourceTree = "<group>"; };
+		07F4227F16FF39FC004DD336 /* TMFAnnounceCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFAnnounceCommand.m; sourceTree = "<group>"; };
+		07F4228016FF39FC004DD336 /* TMFArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFArguments.h; sourceTree = "<group>"; };
+		07F4228116FF39FC004DD336 /* TMFArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFArguments.m; sourceTree = "<group>"; };
+		07F4228216FF39FC004DD336 /* TMFCapabilityCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFCapabilityCommand.h; sourceTree = "<group>"; };
+		07F4228316FF39FC004DD336 /* TMFCapabilityCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFCapabilityCommand.m; sourceTree = "<group>"; };
+		07F4228416FF39FC004DD336 /* TMFCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFCommand.h; sourceTree = "<group>"; };
+		07F4228516FF39FC004DD336 /* TMFCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFCommand.m; sourceTree = "<group>"; };
+		07F4228616FF39FC004DD336 /* TMFCommandDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFCommandDispatcher.h; sourceTree = "<group>"; };
+		07F4228716FF39FC004DD336 /* TMFCommandDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFCommandDispatcher.m; sourceTree = "<group>"; };
+		07F4228816FF39FC004DD336 /* TMFConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFConfiguration.h; sourceTree = "<group>"; };
+		07F4228916FF39FC004DD336 /* TMFConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFConfiguration.m; sourceTree = "<group>"; };
+		07F4228A16FF39FC004DD336 /* TMFDisconnectCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFDisconnectCommand.h; sourceTree = "<group>"; };
+		07F4228B16FF39FC004DD336 /* TMFDisconnectCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFDisconnectCommand.m; sourceTree = "<group>"; };
+		07F4228C16FF39FC004DD336 /* TMFHeartBeatCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFHeartBeatCommand.h; sourceTree = "<group>"; };
+		07F4228D16FF39FC004DD336 /* TMFHeartBeatCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFHeartBeatCommand.m; sourceTree = "<group>"; };
+		07F4228E16FF39FC004DD336 /* TMFPublishSubscribeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFPublishSubscribeCommand.h; sourceTree = "<group>"; };
+		07F4228F16FF39FC004DD336 /* TMFPublishSubscribeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFPublishSubscribeCommand.m; sourceTree = "<group>"; };
+		07F4229016FF39FC004DD336 /* TMFRequestResponseCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFRequestResponseCommand.h; sourceTree = "<group>"; };
+		07F4229116FF39FC004DD336 /* TMFRequestResponseCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFRequestResponseCommand.m; sourceTree = "<group>"; };
+		07F4229216FF39FC004DD336 /* TMFSerializable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFSerializable.h; sourceTree = "<group>"; };
+		07F4229316FF39FC004DD336 /* TMFSerializableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFSerializableObject.h; sourceTree = "<group>"; };
+		07F4229416FF39FC004DD336 /* TMFSerializableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFSerializableObject.m; sourceTree = "<group>"; };
+		07F4229516FF39FC004DD336 /* TMFSubscribeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFSubscribeCommand.h; sourceTree = "<group>"; };
+		07F4229616FF39FC004DD336 /* TMFSubscribeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFSubscribeCommand.m; sourceTree = "<group>"; };
+		07F4229716FF39FC004DD336 /* TMFUnsubscribeCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFUnsubscribeCommand.h; sourceTree = "<group>"; };
+		07F4229816FF39FC004DD336 /* TMFUnsubscribeCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFUnsubscribeCommand.m; sourceTree = "<group>"; };
+		07F4229916FF39FC004DD336 /* TMFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFView.h; sourceTree = "<group>"; };
+		07F4229A16FF39FC004DD336 /* TMFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFView.m; sourceTree = "<group>"; };
+		07F4229B16FF39FC004DD336 /* TMFViewCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFViewCommand.h; sourceTree = "<group>"; };
+		07F4229D16FF39FC004DD336 /* TMFChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFChannel.h; sourceTree = "<group>"; };
+		07F4229E16FF39FC004DD336 /* TMFChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFChannel.m; sourceTree = "<group>"; };
+		07F4229F16FF39FC004DD336 /* TMFChannelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFChannelDelegate.h; sourceTree = "<group>"; };
+		07F422A016FF39FC004DD336 /* TMFDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFDiscovery.h; sourceTree = "<group>"; };
+		07F422A116FF39FC004DD336 /* TMFDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFDiscovery.m; sourceTree = "<group>"; };
+		07F422A216FF39FC004DD336 /* TMFDiscoveryDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFDiscoveryDelegate.h; sourceTree = "<group>"; };
+		07F422A316FF39FC004DD336 /* TMFJsonRpcCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFJsonRpcCoder.h; sourceTree = "<group>"; };
+		07F422A416FF39FC004DD336 /* TMFJsonRpcCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFJsonRpcCoder.m; sourceTree = "<group>"; };
+		07F422A516FF39FC004DD336 /* TMFMsgPackRpcCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFMsgPackRpcCoder.h; sourceTree = "<group>"; };
+		07F422A616FF39FC004DD336 /* TMFMsgPackRpcCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFMsgPackRpcCoder.m; sourceTree = "<group>"; };
+		07F422A716FF39FC004DD336 /* TMFPeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFPeer.h; sourceTree = "<group>"; };
+		07F422A816FF39FC004DD336 /* TMFPeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFPeer.m; sourceTree = "<group>"; };
+		07F422A916FF39FC004DD336 /* TMFProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFProtocol.h; sourceTree = "<group>"; };
+		07F422AA16FF39FC004DD336 /* TMFProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFProtocol.m; sourceTree = "<group>"; };
+		07F422AB16FF39FC004DD336 /* TMFProtocolCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFProtocolCoder.h; sourceTree = "<group>"; };
+		07F422AC16FF39FC004DD336 /* TMFRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFRequest.h; sourceTree = "<group>"; };
+		07F422AD16FF39FC004DD336 /* TMFRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFRequest.m; sourceTree = "<group>"; };
+		07F422AE16FF39FC004DD336 /* TMFResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFResponse.h; sourceTree = "<group>"; };
+		07F422AF16FF39FC004DD336 /* TMFResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFResponse.m; sourceTree = "<group>"; };
+		07F422B016FF39FC004DD336 /* TMFResponseCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFResponseCallback.h; sourceTree = "<group>"; };
+		07F422B116FF39FC004DD336 /* TMFResponseCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFResponseCallback.m; sourceTree = "<group>"; };
+		07F422B216FF39FC004DD336 /* TMFRpcCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFRpcCoder.h; sourceTree = "<group>"; };
+		07F422B316FF39FC004DD336 /* TMFRpcCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFRpcCoder.m; sourceTree = "<group>"; };
+		07F422B416FF39FC004DD336 /* TMFSubscription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFSubscription.h; sourceTree = "<group>"; };
+		07F422B516FF39FC004DD336 /* TMFSubscription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFSubscription.m; sourceTree = "<group>"; };
+		07F422B616FF39FC004DD336 /* TMFTcpChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFTcpChannel.h; sourceTree = "<group>"; };
+		07F422B716FF39FC004DD336 /* TMFTcpChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFTcpChannel.m; sourceTree = "<group>"; };
+		07F422B816FF39FC004DD336 /* TMFTcpChannelConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFTcpChannelConnection.h; sourceTree = "<group>"; };
+		07F422B916FF39FC004DD336 /* TMFTcpChannelConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFTcpChannelConnection.m; sourceTree = "<group>"; };
+		07F422BA16FF39FC004DD336 /* TMFUdpChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFUdpChannel.h; sourceTree = "<group>"; };
+		07F422BB16FF39FC004DD336 /* TMFUdpChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFUdpChannel.m; sourceTree = "<group>"; };
+		07F422BC16FF39FC004DD336 /* TMFConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFConfigurationDelegate.h; sourceTree = "<group>"; };
+		07F422BD16FF39FC004DD336 /* TMFConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFConnector.h; sourceTree = "<group>"; };
+		07F422BE16FF39FC004DD336 /* TMFConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFConnector.m; sourceTree = "<group>"; };
+		07F422BF16FF39FC004DD336 /* TMFConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFConnectorDelegate.h; sourceTree = "<group>"; };
+		07F422C016FF39FC004DD336 /* TMFDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFDefine.h; sourceTree = "<group>"; };
+		07F422C116FF39FC004DD336 /* TMFError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFError.h; sourceTree = "<group>"; };
+		07F422C216FF39FC004DD336 /* TMFError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMFError.m; sourceTree = "<group>"; };
+		07F422C316FF39FC004DD336 /* TMFLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMFLog.h; sourceTree = "<group>"; };
+		07F422C416FF39FC004DD336 /* threeMF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threeMF.h; sourceTree = "<group>"; };
+		07F422C716FF39FC004DD336 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		07F422C816FF39FC004DD336 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		07F422C916FF39FC004DD336 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		07F422CA16FF39FC004DD336 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		07F422CB16FF39FC004DD336 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		07F422CD16FF39FC004DD336 /* COPYING.LESSER */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.LESSER; sourceTree = "<group>"; };
+		07F422CE16FF39FC004DD336 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		07F422CF16FF39FC004DD336 /* ybase64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ybase64.c; sourceTree = "<group>"; };
+		07F422D016FF39FC004DD336 /* ybase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ybase64.h; sourceTree = "<group>"; };
+		07F422D116FF39FC004DD336 /* ydefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ydefines.h; sourceTree = "<group>"; };
+		07F422FD16FF3BAD004DD336 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		07F422FF16FF3BE1004DD336 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		07F4230116FF3BF4004DD336 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +188,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07F4224816FF2BD2004DD336 /* UIKit.framework in Frameworks */,
+				07F4230316FF3C08004DD336 /* CFNetwork.framework in Frameworks */,
+				07F4230416FF3C08004DD336 /* CoreLocation.framework in Frameworks */,
+				07F4230516FF3C08004DD336 /* Security.framework in Frameworks */,
 				07F4224A16FF2BD2004DD336 /* Foundation.framework in Frameworks */,
 				07F4224C16FF2BD2004DD336 /* CoreGraphics.framework in Frameworks */,
 			);
@@ -56,6 +202,7 @@
 		07F4223B16FF2BD2004DD336 = {
 			isa = PBXGroup;
 			children = (
+				07F4226A16FF39FC004DD336 /* Vendor */,
 				07F4224D16FF2BD2004DD336 /* HelloWorld_3MF */,
 				07F4224616FF2BD2004DD336 /* Frameworks */,
 				07F4224516FF2BD2004DD336 /* Products */,
@@ -73,6 +220,9 @@
 		07F4224616FF2BD2004DD336 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07F4230116FF3BF4004DD336 /* CFNetwork.framework */,
+				07F422FF16FF3BE1004DD336 /* CoreLocation.framework */,
+				07F422FD16FF3BAD004DD336 /* Security.framework */,
 				07F4224716FF2BD2004DD336 /* UIKit.framework */,
 				07F4224916FF2BD2004DD336 /* Foundation.framework */,
 				07F4224B16FF2BD2004DD336 /* CoreGraphics.framework */,
@@ -105,6 +255,180 @@
 				07F4225D16FF2BD2004DD336 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F4226A16FF39FC004DD336 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				07F4226B16FF39FC004DD336 /* threeMF */,
+			);
+			name = Vendor;
+			path = HelloWorld_3MF/Vendor;
+			sourceTree = "<group>";
+		};
+		07F4226B16FF39FC004DD336 /* threeMF */ = {
+			isa = PBXGroup;
+			children = (
+				07F4226C16FF39FC004DD336 /* Classes */,
+				07F422C416FF39FC004DD336 /* threeMF.h */,
+				07F422C516FF39FC004DD336 /* Vendor */,
+			);
+			path = threeMF;
+			sourceTree = "<group>";
+		};
+		07F4226C16FF39FC004DD336 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				07F4226D16FF39FC004DD336 /* Commands */,
+				07F4227A16FF39FC004DD336 /* Controller */,
+				07F4227D16FF39FC004DD336 /* Dispatcher */,
+				07F4229C16FF39FC004DD336 /* Network */,
+				07F422BC16FF39FC004DD336 /* TMFConfigurationDelegate.h */,
+				07F422BD16FF39FC004DD336 /* TMFConnector.h */,
+				07F422BE16FF39FC004DD336 /* TMFConnector.m */,
+				07F422BF16FF39FC004DD336 /* TMFConnectorDelegate.h */,
+				07F422C016FF39FC004DD336 /* TMFDefine.h */,
+				07F422C116FF39FC004DD336 /* TMFError.h */,
+				07F422C216FF39FC004DD336 /* TMFError.m */,
+				07F422C316FF39FC004DD336 /* TMFLog.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		07F4226D16FF39FC004DD336 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				07F4226E16FF39FC004DD336 /* TMFImageCommand.h */,
+				07F4226F16FF39FC004DD336 /* TMFImageCommand.m */,
+				07F4227016FF39FC004DD336 /* TMFKeyValueCommand.h */,
+				07F4227116FF39FC004DD336 /* TMFKeyValueCommand.m */,
+				07F4227216FF39FC004DD336 /* TMFLocationCommand.h */,
+				07F4227316FF39FC004DD336 /* TMFLocationCommand.m */,
+				07F4227416FF39FC004DD336 /* TMFMotionCommand.h */,
+				07F4227516FF39FC004DD336 /* TMFMotionCommand.m */,
+				07F4227616FF39FC004DD336 /* TMFMultiTouchCommand.h */,
+				07F4227716FF39FC004DD336 /* TMFMultiTouchCommand.m */,
+				07F4227816FF39FC004DD336 /* TMFMultiTouchView.h */,
+				07F4227916FF39FC004DD336 /* TMFMultiTouchView.m */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		07F4227A16FF39FC004DD336 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07F4227B16FF39FC004DD336 /* TMFServiceBrowserTableViewController.h */,
+				07F4227C16FF39FC004DD336 /* TMFServiceBrowserTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		07F4227D16FF39FC004DD336 /* Dispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				07F4227E16FF39FC004DD336 /* TMFAnnounceCommand.h */,
+				07F4227F16FF39FC004DD336 /* TMFAnnounceCommand.m */,
+				07F4228016FF39FC004DD336 /* TMFArguments.h */,
+				07F4228116FF39FC004DD336 /* TMFArguments.m */,
+				07F4228216FF39FC004DD336 /* TMFCapabilityCommand.h */,
+				07F4228316FF39FC004DD336 /* TMFCapabilityCommand.m */,
+				07F4228416FF39FC004DD336 /* TMFCommand.h */,
+				07F4228516FF39FC004DD336 /* TMFCommand.m */,
+				07F4228616FF39FC004DD336 /* TMFCommandDispatcher.h */,
+				07F4228716FF39FC004DD336 /* TMFCommandDispatcher.m */,
+				07F4228816FF39FC004DD336 /* TMFConfiguration.h */,
+				07F4228916FF39FC004DD336 /* TMFConfiguration.m */,
+				07F4228A16FF39FC004DD336 /* TMFDisconnectCommand.h */,
+				07F4228B16FF39FC004DD336 /* TMFDisconnectCommand.m */,
+				07F4228C16FF39FC004DD336 /* TMFHeartBeatCommand.h */,
+				07F4228D16FF39FC004DD336 /* TMFHeartBeatCommand.m */,
+				07F4228E16FF39FC004DD336 /* TMFPublishSubscribeCommand.h */,
+				07F4228F16FF39FC004DD336 /* TMFPublishSubscribeCommand.m */,
+				07F4229016FF39FC004DD336 /* TMFRequestResponseCommand.h */,
+				07F4229116FF39FC004DD336 /* TMFRequestResponseCommand.m */,
+				07F4229216FF39FC004DD336 /* TMFSerializable.h */,
+				07F4229316FF39FC004DD336 /* TMFSerializableObject.h */,
+				07F4229416FF39FC004DD336 /* TMFSerializableObject.m */,
+				07F4229516FF39FC004DD336 /* TMFSubscribeCommand.h */,
+				07F4229616FF39FC004DD336 /* TMFSubscribeCommand.m */,
+				07F4229716FF39FC004DD336 /* TMFUnsubscribeCommand.h */,
+				07F4229816FF39FC004DD336 /* TMFUnsubscribeCommand.m */,
+				07F4229916FF39FC004DD336 /* TMFView.h */,
+				07F4229A16FF39FC004DD336 /* TMFView.m */,
+				07F4229B16FF39FC004DD336 /* TMFViewCommand.h */,
+			);
+			path = Dispatcher;
+			sourceTree = "<group>";
+		};
+		07F4229C16FF39FC004DD336 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				07F4229D16FF39FC004DD336 /* TMFChannel.h */,
+				07F4229E16FF39FC004DD336 /* TMFChannel.m */,
+				07F4229F16FF39FC004DD336 /* TMFChannelDelegate.h */,
+				07F422A016FF39FC004DD336 /* TMFDiscovery.h */,
+				07F422A116FF39FC004DD336 /* TMFDiscovery.m */,
+				07F422A216FF39FC004DD336 /* TMFDiscoveryDelegate.h */,
+				07F422A316FF39FC004DD336 /* TMFJsonRpcCoder.h */,
+				07F422A416FF39FC004DD336 /* TMFJsonRpcCoder.m */,
+				07F422A516FF39FC004DD336 /* TMFMsgPackRpcCoder.h */,
+				07F422A616FF39FC004DD336 /* TMFMsgPackRpcCoder.m */,
+				07F422A716FF39FC004DD336 /* TMFPeer.h */,
+				07F422A816FF39FC004DD336 /* TMFPeer.m */,
+				07F422A916FF39FC004DD336 /* TMFProtocol.h */,
+				07F422AA16FF39FC004DD336 /* TMFProtocol.m */,
+				07F422AB16FF39FC004DD336 /* TMFProtocolCoder.h */,
+				07F422AC16FF39FC004DD336 /* TMFRequest.h */,
+				07F422AD16FF39FC004DD336 /* TMFRequest.m */,
+				07F422AE16FF39FC004DD336 /* TMFResponse.h */,
+				07F422AF16FF39FC004DD336 /* TMFResponse.m */,
+				07F422B016FF39FC004DD336 /* TMFResponseCallback.h */,
+				07F422B116FF39FC004DD336 /* TMFResponseCallback.m */,
+				07F422B216FF39FC004DD336 /* TMFRpcCoder.h */,
+				07F422B316FF39FC004DD336 /* TMFRpcCoder.m */,
+				07F422B416FF39FC004DD336 /* TMFSubscription.h */,
+				07F422B516FF39FC004DD336 /* TMFSubscription.m */,
+				07F422B616FF39FC004DD336 /* TMFTcpChannel.h */,
+				07F422B716FF39FC004DD336 /* TMFTcpChannel.m */,
+				07F422B816FF39FC004DD336 /* TMFTcpChannelConnection.h */,
+				07F422B916FF39FC004DD336 /* TMFTcpChannelConnection.m */,
+				07F422BA16FF39FC004DD336 /* TMFUdpChannel.h */,
+				07F422BB16FF39FC004DD336 /* TMFUdpChannel.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		07F422C516FF39FC004DD336 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				07F422C616FF39FC004DD336 /* CocoaAsyncSocket */,
+				07F422CC16FF39FC004DD336 /* ytoolkit */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		07F422C616FF39FC004DD336 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				07F422C716FF39FC004DD336 /* GCDAsyncSocket.h */,
+				07F422C816FF39FC004DD336 /* GCDAsyncSocket.m */,
+				07F422C916FF39FC004DD336 /* GCDAsyncUdpSocket.h */,
+				07F422CA16FF39FC004DD336 /* GCDAsyncUdpSocket.m */,
+				07F422CB16FF39FC004DD336 /* README.markdown */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		07F422CC16FF39FC004DD336 /* ytoolkit */ = {
+			isa = PBXGroup;
+			children = (
+				07F422CD16FF39FC004DD336 /* COPYING.LESSER */,
+				07F422CE16FF39FC004DD336 /* README.markdown */,
+				07F422CF16FF39FC004DD336 /* ybase64.c */,
+				07F422D016FF39FC004DD336 /* ybase64.h */,
+				07F422D116FF39FC004DD336 /* ydefines.h */,
+			);
+			path = ytoolkit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +487,9 @@
 				07F4225C16FF2BD2004DD336 /* Default@2x.png in Resources */,
 				07F4225E16FF2BD2004DD336 /* Default-568h@2x.png in Resources */,
 				07F4226416FF2BD2004DD336 /* ViewController.xib in Resources */,
+				07F422F916FF39FC004DD336 /* README.markdown in Resources */,
+				07F422FA16FF39FC004DD336 /* COPYING.LESSER in Resources */,
+				07F422FB16FF39FC004DD336 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +503,46 @@
 				07F4225416FF2BD2004DD336 /* main.m in Sources */,
 				07F4225816FF2BD2004DD336 /* AppDelegate.m in Sources */,
 				07F4226116FF2BD2004DD336 /* ViewController.m in Sources */,
+				07F422D216FF39FC004DD336 /* TMFImageCommand.m in Sources */,
+				07F422D316FF39FC004DD336 /* TMFKeyValueCommand.m in Sources */,
+				07F422D416FF39FC004DD336 /* TMFLocationCommand.m in Sources */,
+				07F422D516FF39FC004DD336 /* TMFMotionCommand.m in Sources */,
+				07F422D616FF39FC004DD336 /* TMFMultiTouchCommand.m in Sources */,
+				07F422D716FF39FC004DD336 /* TMFMultiTouchView.m in Sources */,
+				07F422D816FF39FC004DD336 /* TMFServiceBrowserTableViewController.m in Sources */,
+				07F422D916FF39FC004DD336 /* TMFAnnounceCommand.m in Sources */,
+				07F422DA16FF39FC004DD336 /* TMFArguments.m in Sources */,
+				07F422DB16FF39FC004DD336 /* TMFCapabilityCommand.m in Sources */,
+				07F422DC16FF39FC004DD336 /* TMFCommand.m in Sources */,
+				07F422DD16FF39FC004DD336 /* TMFCommandDispatcher.m in Sources */,
+				07F422DE16FF39FC004DD336 /* TMFConfiguration.m in Sources */,
+				07F422DF16FF39FC004DD336 /* TMFDisconnectCommand.m in Sources */,
+				07F422E016FF39FC004DD336 /* TMFHeartBeatCommand.m in Sources */,
+				07F422E116FF39FC004DD336 /* TMFPublishSubscribeCommand.m in Sources */,
+				07F422E216FF39FC004DD336 /* TMFRequestResponseCommand.m in Sources */,
+				07F422E316FF39FC004DD336 /* TMFSerializableObject.m in Sources */,
+				07F422E416FF39FC004DD336 /* TMFSubscribeCommand.m in Sources */,
+				07F422E516FF39FC004DD336 /* TMFUnsubscribeCommand.m in Sources */,
+				07F422E616FF39FC004DD336 /* TMFView.m in Sources */,
+				07F422E716FF39FC004DD336 /* TMFChannel.m in Sources */,
+				07F422E816FF39FC004DD336 /* TMFDiscovery.m in Sources */,
+				07F422E916FF39FC004DD336 /* TMFJsonRpcCoder.m in Sources */,
+				07F422EA16FF39FC004DD336 /* TMFMsgPackRpcCoder.m in Sources */,
+				07F422EB16FF39FC004DD336 /* TMFPeer.m in Sources */,
+				07F422EC16FF39FC004DD336 /* TMFProtocol.m in Sources */,
+				07F422ED16FF39FC004DD336 /* TMFRequest.m in Sources */,
+				07F422EE16FF39FC004DD336 /* TMFResponse.m in Sources */,
+				07F422EF16FF39FC004DD336 /* TMFResponseCallback.m in Sources */,
+				07F422F016FF39FC004DD336 /* TMFRpcCoder.m in Sources */,
+				07F422F116FF39FC004DD336 /* TMFSubscription.m in Sources */,
+				07F422F216FF39FC004DD336 /* TMFTcpChannel.m in Sources */,
+				07F422F316FF39FC004DD336 /* TMFTcpChannelConnection.m in Sources */,
+				07F422F416FF39FC004DD336 /* TMFUdpChannel.m in Sources */,
+				07F422F516FF39FC004DD336 /* TMFConnector.m in Sources */,
+				07F422F616FF39FC004DD336 /* TMFError.m in Sources */,
+				07F422F716FF39FC004DD336 /* GCDAsyncSocket.m in Sources */,
+				07F422F816FF39FC004DD336 /* GCDAsyncUdpSocket.m in Sources */,
+				07F422FC16FF39FC004DD336 /* ybase64.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
