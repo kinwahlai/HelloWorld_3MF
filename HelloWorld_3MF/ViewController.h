@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "threeMF.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <TMFConnectorDelegate>
 
 @end
